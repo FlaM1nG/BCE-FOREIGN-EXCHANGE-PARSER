@@ -73,16 +73,15 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]overhttpshttpshttpshttps
-
-Carpeta
-00_hotel_list/00 Start
-npm install
-npm run mock-server
-y en otro terminal
-npm start
 
-
- <MuiThemeProvider theme={theme}>
+##Carpeta
+##00_hotel_list/00 Start
+##npm install
+##npm run mock-server
+##y en otro terminal
+##npm start
+
+ <MuiThemeProvider theme={theme}>
     <HashRouter>
       <Switch>
         <Route exact={true} path="/" component={HotelListPage} />
